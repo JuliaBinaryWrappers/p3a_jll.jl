@@ -1,142 +1,414 @@
 [[p3a]]
 arch = "aarch64"
-git-tree-sha1 = "0e9c7e97d780ecbeba041f0212540b56f62913d1"
+git-tree-sha1 = "ca59f6d0968b28881d14edea691eb6f00143ee8e"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[p3a.download]]
-    sha256 = "3044c8baa57654064f8142efb609a688d116d3ad464521b090a2bd671580474c"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.aarch64-apple-darwin.tar.gz"
+    sha256 = "003cade368d0b048de304055f46ee802cca96e4595943d266da4e6f8a0e006ef"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[p3a]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "16845ac52499b6302c83d50f8619a38a2d9f057a"
-libc = "glibc"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "9c6ebbcaff4b0a09d0b65b8fd21ce8df6d7b1dda5271484ab37ad5338d72ad5e"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.aarch64-linux-gnu-cxx03.tar.gz"
-[[p3a]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "93df97ff91008499b898282d416cb645fe9c45ab"
-libc = "glibc"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "424036f2ab032ea3e7177bf39e22cb6ea1640e9a0fc8fca5a3b6b2948a370e2d"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.aarch64-linux-gnu-cxx11.tar.gz"
-[[p3a]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "610f20a7296822d3a663a27ecd842e16d581026b"
-libc = "musl"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "d0bf82ba9c3d6c364343803d5827444628f81c18b8e313e40c0aab943c459b39"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.aarch64-linux-musl-cxx03.tar.gz"
-[[p3a]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3a1a02c007864c01e109fa9d02067b257f353d25"
-libc = "musl"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "e032ab9fa0273499788cc8af8d6054b8aa9cb44b17d1600836dbc6b0f724f6e4"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.aarch64-linux-musl-cxx11.tar.gz"
-[[p3a]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "92ab45c1260ea3bb32ee7544dcd3cae8e71dffa9"
-libc = "glibc"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "92f68d4b22fba502b30011d0de2a3d291a323851806e13ab79ad08569f1a9947"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[p3a]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "34a55f770903c146f6240ad31197fd6caf98d760"
-libc = "glibc"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "1770746912035404749a384cba78b2e417cdcb5e0b4d97536c1f55ff477c74a4"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[p3a]]
-arch = "x86_64"
-git-tree-sha1 = "288dd200200f5319977bf4d533e9407de73d462a"
+git-tree-sha1 = "424778d373e7e89101844d5d7bf3b0e0ecc4baae"
+lazy = true
+mpi = "mpitrampoline"
 os = "macos"
 
     [[p3a.download]]
-    sha256 = "a338ceb4fe95d743a6e6fb0e257f2f72539546ef3710b10c91d8dfb6815ef068"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-apple-darwin.tar.gz"
+    sha256 = "4fa15a4b014b517381aa81d7ee6e95d7129371ef09fffa82d5c767ed5fd91475"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "aarch64"
+git-tree-sha1 = "3d9a6a77f629a128b7f0736a6915f73b7502d71d"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[p3a.download]]
+    sha256 = "eef81c04df48184b72aac723032182b6014746d63168531883a67c0dc7a47304"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7b03b451e2a56d8f168d53a1a5ca67a120c8b280"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "65e6adeea7243b3fa4e70e47f9b16849b9eb69111a72e20a04c7f43cddf293fa"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fe5d22af05d06b94b0b46cc207524ce920a5458f"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "cf8b7d553e54f9118d9a599743b056575e6092d555bc9b2e541dbeaa04da5d89"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "045fb388cbd4c7c13eea767cf420d30c457965bf"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "1d981f0b6b8fc0a8c193159d8f2c79520ce6a594bbc82b757612304d6911d007"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4e443d35d53d2207a7d16833cc725c72eab60af3"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "fdee459871f242152c13be19dfb4c5a1aa5df6ab8a8f768749477f9e8f5b5758"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b6bbd1e3cc45eada6c48542bb737570ab384255e"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "12c88ec44ea1b4135f3a35210135b9e67b299a1ff04f3b86248fa76b0eb92d13"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "db126cbc9b499adab72d4043f46b26aaf7a7ab8b"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "b4214ae125ff09ec4c41a416864a764a4fbdba39ccd39c9dc7946dd54e1e5173"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e8f0a80084d6a0f95ce07110ed85d728b5dbe311"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "deab51a1c751111218eaf3cf27aeb86d6e17a8e7eb03ee5ff09d25fb115e9b9c"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "548a3648477b3f9e1263db25386ed46da2e436bc"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "ecba9fcc79f30ba14ff28bcb3fd50a57087a00a4b94488cc6e400357d7b2c4c9"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dddcd2c7c6127358368e680ee279695aeb4f4379"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "305b9e59bde96d8cf47f892766a0082ffcd5c0685e2df174604fe7f0450c8448"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f642f64e9cd89eded1b68d527686e1d4e23f0e8b"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "ddcf993d3125ce57b3fbe7dd6060f5237fd2123dfc2939bc85d0b01aaf76da53"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.aarch64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "400d3fa7b36961d65318fede9f7414869568a2f1"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "8aff223b6ce003a0c6712c7c1e2208b29069a96f5dbb236707d825bb4ac719b4"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.powerpc64le-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "83c2724f27ceb8b5b10516d3fb9153d6266f32f2"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "4c485d0361391b7334cf7b61e4391837b0684db61ebae9b608f9d1b1388ed49f"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.powerpc64le-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "872c2d648de07bfd3b4bf6c5f02ed35a3567659f"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "1f060678b75e08fe8048b64c95ccd1c6308bf26c4daeb669be1ee64463cefbb9"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.powerpc64le-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c91942eef2df6e523400894a5949e58605b1a030"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "69565b6d09b750723a68480e06d72dc1d4a8e6c13e82e53bdee3bed9b0a8ecc5"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d42a663e4f73f6373a18df368d277306a741d92e"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "92762469e1af9593f5c8877a773cb184142b7a78cdb133b492be22c3031a12b9"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9b92a6819981c7f3c4efc4722c687fc606f6ef85"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "c74043ae86745073949f7dacac6aa9128aed9f43c0c9ac54975a5c5a5339f792"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "x86_64"
+git-tree-sha1 = "f52480218ac8fa2567addfaca13937f39dd129c3"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[p3a.download]]
+    sha256 = "3f7760b53276e840720b5f678842d8f6f2e914be3d12613aaf36a972c3d2c1da"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "x86_64"
+git-tree-sha1 = "1a68929a8f47ebe6139136e9c3126f4550c47d83"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[p3a.download]]
+    sha256 = "45a0a9e314c764855ad2875e2db0d1bb842e82d5758efd9f92917e071bbb54c3"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "x86_64"
+git-tree-sha1 = "b68e4e9ecc3604181ec5c90acae2f5ab3c2f65c5"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[p3a.download]]
+    sha256 = "d63e7e916048c6cc45fec34702cbdb64186b364dd070c5e25ddc6de9565bb094"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-apple-darwin-mpi+openmpi.tar.gz"
 [[p3a]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "dfb1102011af80e094e0d4c027e15769dadee233"
+git-tree-sha1 = "43237183d8282524fb86af6d818ae4fc59dea0ac"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[p3a.download]]
-    sha256 = "7212730984409619b40d15657947cb2d3e7a091a2a7165cf3fcb4025021088b7"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-linux-gnu-cxx03.tar.gz"
-[[p3a]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "bd3fd833232db30dda0e1db4a985b2dc9d5c6fef"
-libc = "glibc"
-os = "linux"
-
-    [[p3a.download]]
-    sha256 = "c26b5193496ba964aab4b9eb8bad283ecefbad116f23b6274c7f1893cf7a3b65"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "9bbdb9cd775753060c998f29817285c0056ba242f4fc973a76877f7429e50ec6"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
 [[p3a]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8d5550c4e8dfb19c8d476db3dbf55f90f2be9b2d"
-libc = "musl"
+git-tree-sha1 = "e28f070f7baa744cba0314b50fdfae8321d4cc08"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[p3a.download]]
-    sha256 = "c35e57fcf23fd52714fc1916e120e49345657c40c7fa7d5633d4c4d4fd8a6f3e"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "2cfc8ee91c60d49401108da64542986cb0376ed9f894ef4a0c2efdbd23797856"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0475ee1099936984cc18aa813655791e3ec332d9"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "158c9c94daa0a10ab883182959b43b2cfc23b9242fce012f0dd11a7c0303d389"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
 [[p3a]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a7395f465b10f1db12797f9073fa99273ee21d4d"
-libc = "musl"
+git-tree-sha1 = "db40a023efc9f03e1961752e2689966decd37152"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[p3a.download]]
-    sha256 = "48749f8da8aa64bf459383f11b6674870dc19d4bc832613a86e5c51de83b033d"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "ac529a96a1528377bb7da4d650c64dc01d83ea6e23657729b775deb3fb76357b"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[p3a]]
 arch = "x86_64"
-git-tree-sha1 = "6a9fee420c3b8d26e2ebf84cdec1aee6e27bb8db"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8d40e8be5b94158d9c7b9b436697f6104e921bb6"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "cee96131a0b1c5d969a7d85d4e71ef0cb5bdf21485648203a23ae42402f98eee"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[p3a]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e7a4b79e6b7a1b47f7b6e8a6cbbb5e5b192854a7"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "23550154573c73597d74a59f834c5e5887874a25cb788969a1e87f0780affee5"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "12c2861719668586bf0b3ed77df62fcb3358ee5e"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "0d5f22abb5292d287688cc31c53e3dff2344fb4e276758facc7068b6c31e44f3"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a532090708d9679d4f0e653b8f60cd38707073e6"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "7181b279dbe15e08708b080bb865833cdc753e7eee5165f24aeb353d89e05367"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0231efc4411738db79566f72560c65d7bed99471"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "abfbdf6904341e9e7352df66bc5cc24183a7f4d4f7ae00c29f0ebed193c30ce7"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "33339e3debfa991becf2418ad06d7c230d4a82e7"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[p3a.download]]
+    sha256 = "c0744930b348ed3f41d26462348947e3fca55a26c0ba6e8aa56dcd896031f091"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[p3a]]
+arch = "x86_64"
+git-tree-sha1 = "c368bf15dfb6d16db52b1f0d7dc4dd80a73278e4"
+lazy = true
+mpi = "mpich"
 os = "freebsd"
 
     [[p3a.download]]
-    sha256 = "8532b93e94850ba2889b9b938185117d5ef5fd5652bfa8f27376997f324c4a7c"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "a061263f8a5996098b2d5cfccbd6ba044e51c2602db46544c4fa8c8d45f125a0"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[p3a]]
+arch = "x86_64"
+git-tree-sha1 = "464acebc29ea57bc7919884b2807915d06f36800"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[p3a.download]]
+    sha256 = "d7b52bcf9f4839fa6b56678e9139230605587eb20024acc6e886b4140cd1c387"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
 [[p3a]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "caf5b105c051a01410ab2606e326a2e258606b32"
+git-tree-sha1 = "0e1fbad954931db8562bce4ea1eeef519f9f2ee3"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[p3a.download]]
-    sha256 = "02509459dabaf017862ed2f3cd07a5e7f7d648885ade3fa4da0572d6837e2ce1"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "46678d0443474a6f56ca6f6a0bb65dab32609d8dea5560f4f511c3b7061fc921"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-w64-mingw32-cxx03-mpi+microsoftmpi.tar.gz"
 [[p3a]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "26b6c3dc8b22ea66008771f614b71ef40e4e64fc"
+git-tree-sha1 = "48ad033246de2e70cb8318902e5a98b00320cef7"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[p3a.download]]
-    sha256 = "fa7df49aa7bd92c30b4c121768b555b64032d9a7ada0131f0497da18d27392c7"
-    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.2+0/p3a.v1.0.2.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "0c9b5fcd1a7019e9cc5a90efe8905123080223fe7fafb1789bbf180dd3a2aeb6"
+    url = "https://github.com/JuliaBinaryWrappers/p3a_jll.jl/releases/download/p3a-v1.0.3+0/p3a.v1.0.3.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
